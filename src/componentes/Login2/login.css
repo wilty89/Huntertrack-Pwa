@@ -1,0 +1,36 @@
+.content-center{
+	position: absolute;
+    top: 18%;
+    margin: auto;
+     width: 80%;
+    padding: 10px;
+    max-width: 900px;
+    max-height:  900px;
+}
+
+@media screen and (min-width: 790px)
+{
+	.content-center {
+	    left: 10%;
+	    right: 10%;
+
+	}
+	.area{
+		min-height: 500px !important;
+	}
+}
+@media screen and (max-width: 790px)
+{
+	.center{
+		padding-top: 5% !important;
+	}
+	.content-center {
+	    left: 0;
+	    margin: 0;
+	    width: 100%;
+	    max-width: inherit;
+	    padding-left: 44px;
+	    padding-right: 44px;
+	    top: 0;
+	}
+}
